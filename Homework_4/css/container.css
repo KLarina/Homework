@@ -1,0 +1,64 @@
+body{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 1000px;
+    height: 1020px;
+    margin: 0 130px 30px 150px;
+    background-color: white;
+    box-shadow: -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.logo {
+    background-image: url(../img/logo.png);
+    width: 270px;
+    height: 170px;
+    margin: 43px 0 -78px 30px;
+}
+
+.header{
+    position: relative;
+    overflow: hidden;
+    height: 213px;
+}
+
+.contacts{
+    position: absolute;
+    top: -20px;
+    right: 45px;
+    margin: 40px 30px;
+}
+
+.contacts p{
+    text-decoration: underline;
+    color: #68b4c7;
+    line-height: 1.5;
+}
+
+.flags {
+    float: right;
+    margin: 0 30px;
+}
+
+.counries {
+    display: inline-block;
+    width: 64px;
+}
+
+.counries img {
+    display: block;
+    margin: 0 auto;
+}
+
+.counries span {
+    text-align: center;
+    display: block;
+    margin-top: 8px;
+    color: #68b4c7;
+    text-decoration: underline;
+    font-size: smaller;
+}

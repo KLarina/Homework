@@ -1,0 +1,44 @@
+.content {
+    width: 1000px;
+    height: 540px;
+    overflow: hidden;
+}
+
+.leftColumn {
+    width: 210px;
+    float: left;
+    background-color: #edeef0;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    border-right: solid 1px #c7cacf;
+}
+
+.centerColumn {
+    width: 580px;
+    float: left;
+    background-color: white;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+
+.rightColumn {
+    width: 210px;
+    float: right;
+    background-color: #edeef0;
+    border-left: solid 1px #c7cacf;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+
+.content h2 {
+    color: #c7cacf;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
