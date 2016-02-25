@@ -70,4 +70,16 @@ ul.trip li a {
 ul.menu li:hover ul.trip {
     display: block;
 }
+.math li {
+    position: relative;
+}
+.math a:after {
+    content: "";
+    position: absolute;
+    background-image: url(../img/white_triangles.png);
+    width: 5px;
+    height: 5px;
+    right: 10px;
+    top: 15px;
+}
 
