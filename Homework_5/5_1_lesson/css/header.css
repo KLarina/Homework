@@ -1,0 +1,52 @@
+.header {
+    height: 36px;
+    background-color:  #074f8d;
+}
+
+.mainmenu {
+    float: right;
+    width: 745px;
+    height: 36px;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.menu img {
+    height: 22px;
+    margin: -5px 10px;
+}
+
+.menu span {
+    text-align: center;
+    display: block;
+    padding: 10px 11px;
+    margin: 0 -3px 0 -2px;
+    color: #60b5ed;
+    font-size: 14px;
+}
+
+.mainmenu span:hover {
+    background-color: #4eabda;
+    color: white;
+    padding: 10px 10px -10px;
+}
+
+.menu .white {
+    display: inline-block;
+    color: #ffffff;
+    border-left: 1px solid #60b5ed;
+    border-right: 1px solid #60b5ed;
+}
+
+.menu a {
+    text-decoration: #60b5ed;
+    color: inherit;
+}
+
+.content {
+    height: 1028px;
+    background-image: url(../img/Background.jpg);
+    background-repeat: no-repeat;
+}
