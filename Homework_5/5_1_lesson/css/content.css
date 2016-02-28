@@ -1,16 +1,12 @@
 .content {
     position: relative;
     width: 1215px;
-    height: 1028px;
+    margin: 215px 0;
 }
 
 .block {
-    position: absolute;
     width: 550px;
-    height: 615px;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 355px;
+    margin: 0 auto;
 }
 
 .head {
@@ -21,7 +17,6 @@
 
 .form {
     background-color: rgba(0, 0, 0, 0.5);
-    height: 555px;
 }
 
 .head p {
@@ -40,11 +35,34 @@
 
 .login button {
     background-color: #375090;
-    border-radius: 5px;
+    border-radius: 7px;
+    border-color: #375090;
     width: 270px;
-    height: 30px;
+    height: 40px;
     font-weight: 900;
     color: #ffffff;
+}
+
+.login {
+    position: relative;
+}
+
+.buttom:before {
+    position: absolute;
+    border-right: 1px solid #1d3c73;
+    height: 34px;
+    content: "f";
+    left: 15px;
+    padding-right: 15px;
+    font-size: 27px;
+    top: 14px;
+}
+
+.buttom:after {
+    position: absolute;
+    content: ">";
+    right: 15px;
+    font-size: 19px;
 }
 
 .nonbold {
@@ -75,7 +93,7 @@
     width: 123px;
     height: 2px;
     content: '';
-    background-image: url("../img/lineOU.png");
+    background-image: url("../img/line_ou.png");
 }
 
 .ou:before {
