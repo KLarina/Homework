@@ -1,0 +1,45 @@
+.menu {
+    width: 910px;
+    height: 41px;
+    float: left;
+    margin: 10px 0 0 -1px;
+    background-color: #121415;
+}
+
+.menu ul {
+    margin: 0px 0 0 0;
+    display: block;
+    height: 30px;
+    width: 575px;
+    float: left;
+}
+
+.menu ul div {
+    clear:both;
+}
+
+.menu ul li {
+    font: 14px/19px Arial, Helvetica, sans-serif;
+    color: #fff;
+    width: 105px;
+    display: block;
+    float: left;
+    margin: 0 5px;
+    padding: 4px 0;
+}
+
+.menu ul li a {
+    color: #b1bcc0;
+    padding: 4px 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu ul li a:hover {
+    background-color: #185476;
+    border-radius: 10px;
+}
+

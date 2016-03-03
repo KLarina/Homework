@@ -1,0 +1,131 @@
+.LeftColumn {
+    float: left;
+    width: 190px;
+    height: auto;
+    min-height: 300px;
+    margin: 10px 0 30px 0;
+}
+
+.leftname {
+    height: 25px;
+    width: 156px;
+    padding: 6px 0 0 30px;
+    color: #114165;
+    font: 12px/13px Verdana, Arial;
+}
+
+.first, .second, .third {
+    height: auto;
+    width: 180px;
+    padding: 0 0 0 3px;
+    margin: 10px 0 10px 0;
+}
+
+.LeftColumn span {
+    text-transform: uppercase;
+}
+
+.LeftColumn p {
+    padding: 7px 0 0 32px;
+    display: block;
+    width: 118px;
+    height: 21px;
+    color: #114165;
+    font: 12px/13px Verdana, Arial;
+    text-transform: uppercase;
+}
+
+
+.LeftColumn a {
+    display: block;
+    width: 130px;
+    height: 14px;
+    padding: 1px 0 0 10px;
+    margin: 10px 0 0 30px;
+    color: #465961;
+    font: 12px/13px Verdana, Arial;
+    font-weight: normal;
+}
+
+.LeftColumn a:hover {
+    text-decoration: 1px solid;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.CentralColumn {
+    float: left;
+    margin: 0 2px 30px;
+    padding: 0 0 10px 0px;
+    width: 526px;
+    height: auto;
+    background-image: url(../img/background_cc.jpg);
+    background-repeat: no-repeat;
+}
+
+.item {
+    float: left;
+    width: 140px;
+    height: 180px;
+    text-align: center;
+    margin: 15px 17px;
+}
+
+.company {
+    color: #206988;
+    font: 14px/14px Verdana, Arial;
+}
+
+.model {
+    margin: 0 0 3px 0;
+    color: #1f2528;
+    height: 26px;
+    font: 11px/13px Verdana, Arial;
+}
+
+.image {
+    text-align: center;
+    display: table;
+    width: 140px;
+    height: 129px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.image a {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.image a img {
+    max-width: 136px;
+}
+
+.middle-item-price {
+    margin: 5px 0 0 0;
+    color: #114165;
+    font: bold 13px/13px Verdana, Arial;
+}
+
+.clean {
+    clean: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

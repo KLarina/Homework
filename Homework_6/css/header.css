@@ -1,0 +1,101 @@
+.header {
+    height: 37px;
+    width: 100%;
+    padding: 13px 0 0 0;
+    position: relative;
+}
+
+.phone {
+    color: #213a4d;
+    float: left;
+    height: 27px;
+    width: auto;
+    padding: 10px 0 0 5px;
+}
+
+.phone span {
+    font: 18px/19px Arial, Helvetica, sans-serif;
+    margin: 5px 0px 0 5px;
+}
+
+.phone img {
+    float: left;
+    background-color: #103d62;
+    height: 22px;
+    width: 21px;
+    border-radius: 15px;
+}
+
+.box {
+    width: 495px;
+    height: 27px;
+    float: left;
+    margin: 4px 0px 0 21px;
+    padding: 0 0 5px 5px;
+    background-color: #103d62;
+    border-radius: 5px;
+    position: relative;
+}
+
+.box img {
+    padding-top: 3px;
+}
+
+.enter {
+    height: 13px;
+    width: 40px;
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.forma input {
+    font: 12px/13px Arial, Helvetica, sans-serif;
+    width: 113px;
+    height: 14px;
+    padding: 0;
+    color: #51676f;
+    border: 1px solid #97a2a6;
+    margin: 0 4px 0 0;
+}
+
+.forma a {
+    margin: 1px 14px 0 0;
+    color: #fff;
+    font: 11px/13px Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.enter:after {
+    position: absolute;
+    content: "";
+    display: block;
+    border-right: 1px solid #ffffff;
+    height: 11px;
+    top: 10px;
+    right: 39%;
+}
+
+.map {
+    clear: both;
+    position: absolute;
+    right: -95px;
+    top: -3px;
+    width: auto;
+}
+
+.logo {
+    width: 100%;
+    height: 237px;
+    margin-top: 9px;
+    background-image: url("../img/background.jpg");
+}
+
+.zone {
+    height: 155px;
+    width: 100%;
+}
+
