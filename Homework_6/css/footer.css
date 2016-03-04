@@ -1,0 +1,57 @@
+.pics {
+    width: 594px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.pics ul li {
+    display: inline;
+}
+
+.pics ul img {
+    width: 90px;
+    margin: -15px auto;
+    padding: 0 3px;
+}
+
+.about {
+    margin: 0px auto;
+    width: 910px;
+    height: 100px;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue Cyr Roman" sans-serif;
+    background-color: #213a4d;
+}
+
+.fmenu {
+    padding: 10px 0 10px 0;
+}
+
+.fmenu li {
+    display: inline;
+    font-size: 13px;
+}
+
+.fmenu a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0 12px;
+}
+
+.fmenu a:hover {
+    color: #00b3ff;
+}
+
+.border {
+    border-right: 1px solid #ffffff;
+}
+
+.move a {
+    color: #8b0000;
+    text-decoration: none;
+}
+
+.move span {
+    color: #8b0000;
+}
+

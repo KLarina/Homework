@@ -11,7 +11,7 @@
     width: 156px;
     padding: 6px 0 0 30px;
     color: #114165;
-    font: 12px/13px Verdana, Arial;
+    font: 12px/13px Verdana, Arial, "Helvetica Neue Cyr Roman";
 }
 
 .first, .second, .third {
@@ -31,7 +31,7 @@
     width: 118px;
     height: 21px;
     color: #114165;
-    font: 12px/13px Verdana, Arial;
+    font: 12px/13px Verdana, Arial, "Helvetica Neue Cyr Roman";
     text-transform: uppercase;
 }
 
@@ -43,12 +43,12 @@
     padding: 1px 0 0 10px;
     margin: 10px 0 0 30px;
     color: #465961;
-    font: 12px/13px Verdana, Arial;
+    font: 12px/13px Verdana, Arial, "Helvetica Neue Cyr Roman";
     font-weight: normal;
 }
 
 .LeftColumn a:hover {
-    text-decoration: 1px solid;
+    text-decoration: underline;
     font-style: italic;
     font-weight: bold;
 }
@@ -73,14 +73,14 @@
 
 .company {
     color: #206988;
-    font: 14px/14px Verdana, Arial;
+    font: 14px/14px Verdana, Arial, "Helvetica Neue Cyr Roman";
 }
 
 .model {
     margin: 0 0 3px 0;
     color: #1f2528;
     height: 26px;
-    font: 11px/13px Verdana, Arial;
+    font: 11px/13px Verdana, Arial, "Helvetica Neue Cyr Roman";
 }
 
 .image {
@@ -101,31 +101,53 @@
     max-width: 136px;
 }
 
-.middle-item-price {
+.price {
     margin: 5px 0 0 0;
     color: #114165;
-    font: bold 13px/13px Verdana, Arial;
+    font: bold 13px/13px Verdana, Arial, "Helvetica Neue Cyr Roman";
 }
 
-.clean {
-    clean: both;
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
 }
 
+.RightColumn {
+    float: left;
+    width: 180px;
+    height: auto;
+    min-height: 300px;
+    margin: 10px 0 30px 10px;
+}
 
+.title {
+    text-transform: uppercase
+}
 
+.rfirst, .rsecond {
+    height: auto;
+    width: 180px;
+    padding: 0 0 0 3px;
+    margin: 10px 0 10px 0;
+}
 
+.RightColumn p {
+    padding: 7px 0 0 32px;
+    display: block;
+    width: 118px;
+    height: 21px;
+    color: #114165;
+    font: 12px/13px Verdana, Arial, "Helvetica Neue Cyr Roman";
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.choise button {
+    width: 80px;
+    height: 25px;
+    background-color: #124569;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-left: 40px;
+}
