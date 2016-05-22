@@ -1,0 +1,30 @@
+body{
+    background: grey;
+ }
+
+.wrapper {
+    width: 970px;
+    padding: 10px 15px;
+    margin: 0 auto;
+    background: white;
+}
+
+.text-center {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.h3 {
+    margin: 10px 20px;
+    display: block;
+}
+
+.btn-lg{
+    background-color: #B1D4FF;
+    width: 270px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
