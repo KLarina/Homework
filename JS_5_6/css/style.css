@@ -1,0 +1,24 @@
+body {
+    background-color: cornflowerblue;
+    }
+
+.row {
+    min-width: 960px;
+    margin: 50px;
+}
+
+.count {
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    text-align: center;
+}
+
+.buttons button {
+    height: 50px;
+    width: 70px;
+    background-color: white;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
