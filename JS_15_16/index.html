@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>15-16</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="js/tmpl.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/myscript.js"></script>
+</head>
+<body>
+<div id="search">
+    <div  title="Google"  class="google_logo" ></div>
+    <form action="#" onsubmit="return false;">
+        <input id="search_query" type="text" name="search_query">
+        <input type="submit" id="submit" value="Search" name="search">
+    </form>
+</div>
+<div class="container" id="second_part"></div>
+<script type="text/html" id="results">
+    <div class="search_result" style="background: url('<%= webformatURL %>');">
+    </div>
+</script>
+</body>
+</html>
