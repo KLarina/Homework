@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>11_12_js</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="js/tmpl.js"></script>
+    <!--<link rel="stylesheet" href="css/reset.css">-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="slider">
+    <div class="slide-list">
+        <div class="slide-wrap">
+            <div class="slide-item">
+                <img src="img/images%20(1).jpg"> <span class="slide-title">Я начинаю учиться в GoIT</span>
+            </div>
+            <div class="slide-item">
+                <img src="img/images%20(2).jpg"> <span class="slide-title">Я продолжаю учиться в GoIT</span>
+            </div>
+            <div class="slide-item">
+                <img src="img/images%20(3).jpg"> <span class="slide-title">Окончание курса</span>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div name="prev" class="navy prev-slide"></div>
+    <div name="next" class="navy next-slide"></div>
+    <div class="auto play"></div>
+</div>
+<div class="container" id="second_part"></div>
+<script type="text/html" id="item_templ">
+    <div class="row">
+        <div class="container_card">
+            <div class="card">
+                <div class="info">
+                    <h2><%= name%></h2>
+                    <div class="photo"></div>
+                    <p class="repeat-top"><%= who%></p>
+                </div>
+                <div class="mission">
+                    <p><%= target%></p>
+                    <ul>
+                        <% for (var i=0; i < targets.length; i++) {%>
+                        <li><%= targets[i]%></li>
+                        <% } %>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <p class="<%= bot%>"><%= phone_title%></p>
+                    <p class="<%= top%>"><%= phone%></p>
+                    <p class="<%= bot%>"><%= vk%></p>
+                    <p class="<%= top%>">
+                        <a href="//<%= adr%>" target="_blank"><%= adr%></a>
+                    </p>
+                </div>
+                <div class="feedback">
+                    <p class="<%= bot%>"><%= feed%></p>
+                    <p class="<%= top%>"><%= feed_cont%></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+<script src="js/script.js"></script>
+<script src="js/slider.js"></script>
+</body>
+</html>

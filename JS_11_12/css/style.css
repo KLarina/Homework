@@ -1,0 +1,130 @@
+body {
+    background: url("../img/background.jpg");
+}
+.clear {
+    margin-top: -1px;
+    height: 1px;
+    clear:both;
+    zoom: 1;
+}
+.slider {
+    width: 900px;
+    margin: 50px auto;
+    padding: 0 30px;
+    position: relative;
+}
+.slider::-moz-selection { background: transparent; color: #fff; text-shadow: none; }
+.slider::selection { background: transparent; color: #fff; text-shadow: none; }
+
+.slide-list {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.slide-wrap {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 10000000px;
+}
+.slide-item {
+    width: 280px;
+    padding: 10px;
+    float: left;
+}
+.slide-title {
+    font: bold 16px monospace;
+    display: block;
+}
+img {
+    width:240px;
+    height:187px
+}
+.navy {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+}
+.prev-slide {
+    left: 0;
+    background: url("../img/left-arrow.png") 13px 40% no-repeat;
+}
+.next-slide {
+    right: 0;
+    background: url("../img/right-arrow.png") 13px 40% no-repeat;
+}
+.navy.disable {
+    background: #EAEAEA;
+}
+
+.auto {
+    width: 7px;
+    height: 11px;
+    cursor: pointer;
+    margin: 10px auto;
+}
+.play {
+    background: url("../img/play.png") center no-repeat;
+}
+.pause {
+    background: url("../img/pause.png") center no-repeat;
+}
+
+.container  {
+    width: 970px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.row {
+    margin: 0 15px;
+}
+.container_card {
+    background: #fff;
+    margin: 5px auto 50px;
+    padding: 30px 0 50px;
+    width: 510px;
+    min-height: 300px;
+    box-shadow: 0 0 2px 1px rgba(213, 213, 213, 1);
+}
+
+.info, .mission, .contact {
+    border-bottom: 1px solid #000;
+}
+
+.card {
+    margin: 0 50px;
+}
+
+.card p {
+    margin-left: 10px;
+}
+
+.card .info h2 {
+    font-size: 22px;
+    text-align: center;
+}
+
+.card .info .photo{
+    background: url("../img/Question-.png") no-repeat;
+    margin: 0 auto;
+    max-width: 130px;
+    min-height: 150px;
+    background-size: contain
+}
+
+.card .mission li {
+    line-height: 24px;
+}
+
+.repeat-bottom {
+    margin-bottom: 0;
+}
+
+.repeat-top {
+    margin-top: 10px;
+}
