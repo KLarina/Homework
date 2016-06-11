@@ -1,0 +1,53 @@
+@import url(owl.carousel.css);
+@import url(center-panel.css);
+.slider{
+    width: 700px;
+    margin: 20px auto;
+    position: relative;
+}
+span.select2.select2-container.select2-container--default {
+    width: 100px!important;
+}
+.owl-prev, .owl-next{
+    display: block;
+    font-size: 0;
+}
+.owl-prev{
+    position: absolute;
+    background: url("../img/Arrow%20Right.png");
+    left: -25px;
+    bottom: 220px;;
+    width: 24px;
+    height: 32px;
+}
+.owl-next {
+    position: absolute;
+    background: url("../img/Arrow%20Left.png");
+    right: -25px;
+    bottom: 220px;
+    width: 24px;
+    height: 32px;
+}
+.owl-dots{
+    float: right;
+}
+.owl-dot{
+    height: 10px;
+    width: 10px;
+    background: red;
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.owl-dot.active{
+    height: 8px;
+    width: 8px;
+    background: yellow;
+}
+.ui-tabs .ui-tabs-panel{
+    background:url("../img/background.jpg")!important;
+    height: 540px;
+}
+.frame{
+    text-align: center;
+}
